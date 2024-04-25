@@ -106,6 +106,15 @@ main{
     text-align: justify;
     margin: 70px;
 }
+
+#valor{
+    text-align: center;
+    font-size: 32px;
+}
+
+#desconto{
+    text-align: center;
+}
 /*FIM CONTEUDO*/
 
 /* INICIO RODAPE */
