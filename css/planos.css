@@ -61,8 +61,56 @@ li a:hover{
 
 /* FIM BARRA NAV */
 
+
+/*INICIO CONTEUDO*/
+#titulo{
+    color: black;
+    font-family: 'Junge';
+    font-weight: lighter;
+    margin: 20px;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+}
+
+.planos{
+    background-color: #91ACF2;
+    width: 900px;
+    height: 455px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+#mensal{
+    font-size: 46px;
+    color: #0E0E0F;
+    font-weight: lighter;
+}
+
+#trimestral{
+    font-size: 46px;
+    color: #0E0E0F;
+    font-weight: lighter;
+}
+
+#anual{
+    font-size: 46px;
+    color: #0E0E0F;
+    font-weight: lighter;
+}
+
+#beneficios{
+    font-size: 32px;
+    text-align: justify;
+    margin: 70px;
+}
+/*FIM CONTEUDO*/
+
 /* INICIO RODAPE */
 footer p{
+    
     font-size: 23px;
     margin-top: 0px;
     background-color: #0E0E0F;
