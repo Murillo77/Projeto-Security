@@ -16,6 +16,7 @@ body{
 
 h1{
     font-family: 'Junge';
+    font-weight: lighter;
     text-align: center;
     color:#91ACF2 ;
 }
@@ -112,6 +113,52 @@ main{
     color: white;
     text-align: justify;
     margin: 10px;
+}
+
+.funcionamento{
+    display: flex;
+    justify-content: center;
+}
+
+.cont{
+    background-color: #ffffff;
+    width: 900px;
+    height: 380px;
+    margin: 50px;
+}
+
+.horario{
+background-color: #6D95FC;
+width: 100%;
+height: 40px;
+margin-bottom: 10px;
+
+    
+}
+
+#title{
+    text-align: center;
+    color: #6D95FC;
+    font-weight: lighter;
+    background-color: black;
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+#dia{
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: lighter;
+}
+
+#hora{
+    font-size: 23px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: -15px;
 }
 /*FIM CONTEUDO*/
 
