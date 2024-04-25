@@ -62,8 +62,57 @@ li a:hover{
 /* FIM BARRA NAV */
 
 /*INICIO CONTEUDO*/
+#titulo{
+    text-align: center;
+    color: #0E0E0F;
+    font-weight: lighter;
+    margin: 40px;
+}
 
+main{
+    display: flex;
+    justify-content: center;
+}
 
+.box{
+    background-color: #6D95FC;
+    width: 285px;
+    height: 353px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#oficina{
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+}
+
+.texto{
+    margin: 30px;
+    font-weight: lighter;
+}
+
+#endereco{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    margin: 10px;
+}
+
+#numero{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    margin: 10px;
+}
+
+#referencia{
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    margin: 10px;
+}
 /*FIM CONTEUDO*/
 
 /* INICIO RODAPE */
