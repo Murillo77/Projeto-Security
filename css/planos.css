@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+}
+
+body{
+    margin: 0%;
+}
+
+/* INICIO BARRA NAV */
+
+#cabecalho{
+    background-color: #0E0E0F;
+    width: 100%;
+    height: 150px;
+}
+
+h1{
+    font-family: 'Junge';
+    text-align: center;
+    color:#91ACF2 ;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+li{
+    font-family: 'Junge';
+    margin: 20px;
+    list-style: none;
+}
+
+li a{
+    font-family: 'Junge';
+    text-decoration: none;
+    color: #6D95FC;
+}
+
+li a:hover{
+    border: solid;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-color: #6D95FC;
+}
+
+#home{
+    position: absolute;
+    left: 10px;
+    margin-top: 35px;
+}
+
+#login{
+    position: absolute;
+    right: 10px;
+    margin-top: 35px;
+}
+
+/* FIM BARRA NAV */
+
+
+/*INICIO CONTEUDO*/
+#titulo{
+    color: black;
+    font-family: 'Junge';
+    font-weight: lighter;
+    margin: 20px;
+}
+
+main{
+    display:flex;
+    justify-content: center;
+}
+
+.planos{
+    background-color: #91ACF2;
+    width: 900px;
+    height: 455px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+#mensal{
+    font-size: 46px;
+    color: #0E0E0F;
+    font-weight: lighter;
+}
+
+#trimestral{
+    font-size: 46px;
+    color: #0E0E0F;
+    font-weight: lighter;
+}
+
+#anual{
+    font-size: 46px;
+    color: #0E0E0F;
+    font-weight: lighter;
+}
+
+#beneficios{
+    font-size: 32px;
+    text-align: justify;
+    margin: 70px;
+}
+
+#valor{
+    text-align: center;
+    font-size: 32px;
+}
+
+#desconto{
+    text-align: center;
+}
+/*FIM CONTEUDO*/
+
+/* INICIO RODAPE */
+footer p{
+    
+    font-size: 23px;
+    margin-top: 0px;
+    background-color: #0E0E0F;
+    color:#cacaca;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+/* FIM RODAPE */
