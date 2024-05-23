@@ -205,23 +205,23 @@ footer p {
     }
 
     h1 {
-        font-size:0;
+        font-size:20px;
     }
 
     .container {
-        flex-direction: row;
-        justify-content: space-around;
-        font-size: 0.9rem;
+        
+        
+        font-size: 20px;
     }
 
     #home {
         left: 7px;
-        margin-top: -20px;
+        margin-top: 20px;
     }
 
     #login {
        right: 7px ;
-       margin-top: -20px;
+       margin-top: 20px;
     }
 
     #titulo {
