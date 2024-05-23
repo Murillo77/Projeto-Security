@@ -14,38 +14,38 @@ body {
     background-color: #0E0E0F;
     width: 100%;
     height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
 }
 
 h1 {
+    font-family: 'Junge';
     text-align: center;
     color: #91ACF2;
-    font-size: 2rem;
 }
 
 .container {
     display: flex;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 20px;
     margin-top: 30px;
 }
 
 li {
+    font-family: 'Junge';
     margin: 20px;
     list-style: none;
 }
 
 li a {
+    font-family: 'Junge';
     text-decoration: none;
     color: #6D95FC;
 }
 
 li a:hover {
     border: solid;
-    border-width: 0 0 2px 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
     border-color: #6D95FC;
 }
 
