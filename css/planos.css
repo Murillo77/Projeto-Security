@@ -1,59 +1,61 @@
-*{
-    margin: 0%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    margin: 0%;
+body {
+    font-family: 'Junge', sans-serif;
 }
 
 /* INICIO BARRA NAV */
 
-#cabecalho{
+#cabecalho {
     background-color: #0E0E0F;
     width: 100%;
     height: 150px;
-}
-
-h1{
-    font-family: 'Junge';
-    text-align: center;
-    color:#91ACF2 ;
-}
-
-.container{
     display: flex;
     justify-content: center;
-    font-size: 20px;
+    align-items: center;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #91ACF2;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
     margin-top: 30px;
 }
 
-li{
-    font-family: 'Junge';
+li {
     margin: 20px;
     list-style: none;
 }
 
-li a{
-    font-family: 'Junge';
+li a {
     text-decoration: none;
     color: #6D95FC;
 }
 
-li a:hover{
+li a:hover {
     border: solid;
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
+    border-width: 0 0 2px 0;
     border-color: #6D95FC;
 }
 
-#home{
+#home {
     position: absolute;
     left: 10px;
     margin-top: 35px;
 }
 
-#login{
+#login {
     position: absolute;
     right: 10px;
     margin-top: 35px;
@@ -61,71 +63,188 @@ li a:hover{
 
 /* FIM BARRA NAV */
 
+/* INICIO CONTEUDO */
 
-/*INICIO CONTEUDO*/
-#titulo{
+#titulo {
     color: black;
-    font-family: 'Junge';
     font-weight: lighter;
+    margin: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.planos {
+    background-color: #91ACF2;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    margin: 50px 0;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#mensal, #trimestral, #anual {
+    font-size: 2rem;
+    color: #0E0E0F;
+    font-weight: lighter;
+    text-align: center;
+    margin: 20px 0;
+}
+
+#beneficios {
+    font-size: 1.5rem;
+    text-align: justify;
     margin: 20px;
 }
 
-main{
-    display:flex;
-    justify-content: center;
-}
-
-.planos{
-    background-color: #91ACF2;
-    width: 900px;
-    height: 455px;
-    margin: 50px;
-    border-radius: 20px;
-}
-
-#mensal{
-    font-size: 46px;
-    color: #0E0E0F;
-    font-weight: lighter;
-}
-
-#trimestral{
-    font-size: 46px;
-    color: #0E0E0F;
-    font-weight: lighter;
-}
-
-#anual{
-    font-size: 46px;
-    color: #0E0E0F;
-    font-weight: lighter;
-}
-
-#beneficios{
-    font-size: 32px;
-    text-align: justify;
-    margin: 70px;
-}
-
-#valor{
+#valor {
     text-align: center;
-    font-size: 32px;
+    font-size: 1.5rem;
+    margin: 20px 0;
 }
 
-#desconto{
+#desconto {
     text-align: center;
+    font-size: 1.25rem;
+    margin: 10px 0;
 }
-/*FIM CONTEUDO*/
+
+/* FIM CONTEUDO */
 
 /* INICIO RODAPE */
-footer p{
-    
-    font-size: 23px;
-    margin-top: 0px;
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
     background-color: #0E0E0F;
-    color:#cacaca;
+    color: #cacaca;
     width: 100%;
     height: 40px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 /* FIM RODAPE */
+
+/* MEDIA QUERIES PARA DISPOSITIVOS MÓVEIS */
+@media (max-width: 767px) {
+
+    #cabecalho {
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    li a{
+        font-size: 0;
+    }
+
+    .cont{
+        margin-left: 40px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.8rem;
+        margin-top: 20px;
+    }
+
+    #home {
+        left: 5px;
+        margin-top: -20px;
+    }
+
+    #login {
+       right: 5px ;
+       margin-top: -20px;
+    }
+
+    #titulo {
+        font-size: 1.2rem;
+        margin: 20px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .planos {
+        width: 90%;
+        margin: 20px 0;
+    }
+
+    #beneficios, #valor, #desconto {
+        font-size: 16px;
+        text-align: justify;
+        margin: 10px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+/* MEDIA QUERIES PARA TABLETS */
+@media (min-width: 768px) and (max-width: 990px) {
+    #cabecalho {
+        height: 120px;
+    }
+
+    h1 {
+        font-size:0;
+    }
+
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 0.9rem;
+    }
+
+    #home {
+        left: 7px;
+        margin-top: -20px;
+    }
+
+    #login {
+       right: 7px ;
+       margin-top: -20px;
+    }
+
+    #titulo {
+        font-size: 1.5rem;
+        margin: 30px;
+    }
+
+    main {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .planos {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    #beneficios, #valor, #desconto {
+        font-size: 1.25rem;
+        margin: 15px 0;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
