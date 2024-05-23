@@ -115,3 +115,133 @@ footer p{
     text-align: center;
 }
 /* FIM RODAPE */
+
+/* MEDIA QUERIES PARA DISPOSITIVOS MÓVEIS */
+@media (max-width: 767px) {
+    #cabecalho {
+        height: 100px;
+    }
+
+    li a{
+        font-size: 0px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.8rem;
+        margin-top: 20px;
+    }
+
+    #home{
+        left: 5px;
+        margin-top: -10px;
+    }
+    
+    #login {
+        right: 5px;
+        margin-top: -10px;
+    }
+
+    #titulo {
+        font-size: 1.5rem;
+        margin: 20px;
+    }
+
+    #texto {
+        font-size: 1rem;
+        margin: 20px;
+    }
+
+    .integrantes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .integrantes img {
+        width: 200px;
+        height: 400px;
+        max-width: 300px;
+    }
+
+    .nomes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nome1 {
+        font-size: 1rem;
+        margin: 10px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+
+/* MEDIA QUERIES PARA TABLETS */
+@media (min-width: 768px) and (max-width: 990px) {
+    #cabecalho {
+        height: 120px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .container {
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 0.9rem;
+    }
+
+    #home, #login {
+        position: static;
+        margin: 10px 20px;
+    }
+
+    #titulo {
+        font-size: 1.8rem;
+        margin: 30px;
+    }
+
+    #texto {
+        font-size: 1.1rem;
+        margin: 25px;
+    }
+
+    .integrantes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .integrantes img {
+        width: 45%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .nomes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #nome1 {
+        font-size: 1.1rem;
+        margin: 15px;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
+
+.links a{
+    display: block;
+    justify-content: center;
+    margin: 20px;
+}
