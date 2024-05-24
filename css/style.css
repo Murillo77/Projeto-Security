@@ -14,9 +14,9 @@ input{height: 35px;
       width: 449px;}
 
 footer{background-color:  rgba(35, 92, 236, 1);}
-
-
-.Email{background-color: rgba(230, 219, 219, 1);}
+@media only screen and (max-width: 16px) {
+    
+.Email{background-color: rgba(230, 219, 219, 1);
 
 .Avançar{background-color:  rgba(35, 92, 236, 1) ;
          color: rgba(255, 255, 255, 1);}
@@ -133,4 +133,3 @@ h2 {
 .form-group button:hover {
     background-color: #0056b3;
 }
-

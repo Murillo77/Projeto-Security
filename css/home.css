@@ -2,6 +2,8 @@
     margin: 0%;
 }
 
+
+
 body{
     margin: 0%;
 }
@@ -80,6 +82,8 @@ li a:hover{
     margin-bottom: 20px;
     color: white;
 }
+
+@media only screen and (min-width: 412px) and (max-width: 915px) {
 
 button{
     position: absolute;
@@ -235,6 +239,7 @@ p{
     margin-left: 20px;
     margin-right:20px ;
     font-size: 25px;
+}
 }
 
 /* FIM CONTEUDO */
