@@ -1,136 +1,117 @@
-body {background-color:  #000000}
-
-h1{font-size: 100px; color: rgba(35, 92, 236, 1) }
-  
-
-body{text-align: center;}
-ul{text-align: center;}
-
-button{font-size: 20px; 
-       height: 61px;
-       width: 455px;}
-
-input{height: 35px;
-      width: 449px;}
-
-footer{background-color:  rgba(35, 92, 236, 1);}
-
-
-.Email{background-color: rgba(230, 219, 219, 1);}
-
-.Avançar{background-color:  rgba(35, 92, 236, 1) ;
-         color: rgba(255, 255, 255, 1);}
-.Voltar{background-color: rgba(255, 255, 255, 1);
-        color: black;
-        border: none;}
-
-.esqueceu_a_senha{width: 1500px;}
-.tamanho{width: 50px;
-        margin: 20px auto;
-       text-align: center;}
-.borda{text-align: left;}       
-
-p{
-    color: white;
-}
-
-.Cadastrar{
-    font-size: 20px; 
-       height: 61px;
-       width: 455px;
-       margin-top: 200px;
-}
-
-
-
-
 body {
-    font-family: Arial, sans-serif;
-    height: 2000px;
-    margin: 0;
-    padding: 0;
-}
-.container {
-    width: 1500px;
-    max-width: 1000px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-h2 {
+    background-color: #000000;
     text-align: center;
-}
-.form-group {
-    margin-bottom: 20px;
-}
-.form-group label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group input[type="password"] {
-    width: 99%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-.form-group button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-}
-.form-group button:hover {
-    background-color: #0056b3;
-}
-
-body {
     font-family: Arial, sans-serif;
-   
     margin: 0;
     padding: 0;
-}
-.container {
+ }
+ h1 {
+    font-size: 100px;
+    color: rgba(35, 92, 236, 1);
+ }
+ ul {
+    text-align: center;
+ }
+ button {
+    font-size: 20px;
+    height: 61px;
+    width: 100%;
+    max-width: 455px;
+ }
+ input {
+    height: 35px;
+    width: 100%;
+    max-width: 449px;
+ }
+ footer {
+    background-color: rgba(35, 92, 236, 1);
+    color: white;
+    padding: 10px;
+ }
+ .container {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-h2 {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ h2 {
     text-align: center;
-}
-.form-group {
+ }
+ .form-group {
     margin-bottom: 20px;
-}
-.form-group label {
+ }
+ .form-group label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-}
-.form-group input[type="email"] {
-    width: 99%;
+ }
+ .form-group input[type="text"],
+ .form-group input[type="email"],
+ .form-group input[type="password"] {
+    width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-.form-group button {
-    width: 99%;
+ }
+ .form-group button {
+    width: 100%;
     padding: 10px;
     background-color: #007bff;
     border: none;
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
-}
-.form-group button:hover {
+ }
+ .form-group button:hover {
     background-color: #0056b3;
-}
-
+ }
+ /* MEDIA QUERIES PARA TABLETS */
+ @media (min-width: 768px) and (max-width: 990px) {
+    h1 {
+        font-size: 50px;
+    }
+    .container {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="password"] {
+        padding: 8px;
+    }
+    .input{
+        width: 98%;
+    }
+ 
+    .form-group button {
+        padding: 8px;
+    }
+ }
+ 
+ @media (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+    }
+    button {
+        font-size: 14px;
+        height: 40px;
+        width: 99%;
+    }
+    .input {
+        height: 25px;
+        width: 97%;
+    }
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="password"] {
+        padding: 3px;
+        margin-right: 10px;
+    }
+    .container {
+        width: 80%;
+        margin: 20px auto;
+    }
+ }
+ tem menu de contexto
